@@ -1,0 +1,80 @@
+.front
+{
+  width: 100%;
+  height:700px;
+  border: 1px solid wheat;
+  background-image: url(hack.gif);
+  background-size:cover;
+}
+.main-con
+{
+  border: 1px solid rgba(146, 137, 137, 0.297);
+  border-radius: 60%;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto 100px auto;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.main-con input::placeholder
+{
+  color:green;
+}
+.main-con #input::before
+{
+  font-size: 10px;
+}
+.main-con #input::after
+{
+  font-size: 50px;
+}
+#input,#btn,#result,#alert,#che
+{
+  margin-bottom: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-color:rgb(12, 138, 152) ;
+  color:rgb(12, 138, 152);
+  background-color: whitesmoke;
+  font-weight: bolder;
+}
+#btn,#che
+{
+  width:110px;
+  padding: 5px;
+}
+#input
+{
+  text-align: center;
+  width: 150px;
+  padding: 5px;
+  border-color: rgb(12, 138, 152);
+}
+#alert
+{
+  margin-top: 20px;
+  width: 250px;
+  text-align: center;
+}
+#result
+{
+  height: auto;
+  opacity: 0;
+  width: 150px;
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+}
+.sub-con
+{
+  margin: 50px auto 100px auto;
+  width: 600px;
+  height: 600px;
+}
+.sub-con h1
+{
+  color: rgb(115, 79, 13);
+  font-size: 40px;
+}
